@@ -1,0 +1,101 @@
+/*
+
+let x = 250 ;
+create variable Calculate the value of zakat for x ,If you know the percentage of zakat = 2.5 %; 
+
+*/
+
+
+/*
+Array Tasks : 
+1
+Correct the syntax error
+ [ 1,7  9  45, ]
+
+ ["Str" "alex","moh"
+
+ 'the','fox' 'over' lazy, 'dog',  ]
+
+*/
+
+
+/*
+2
+What the index of "Banana","Tomato"
+var fruits=["Tomato","Banana","Watermelon"]
+
+*/
+
+
+/*
+3
+Create an array represents your:
+1- Favorite Food (2)
+2- Favorite Sport (3)
+3- Favorite Movie (2)
+*/
+
+
+/*
+4
+Create a Variable to return the first element in an array 
+Ex: firstOfArray([1,4,5]) => 1
+Ex: firstOfArray(["t","u","g","x"]) => "t"
+*/
+
+
+/*
+5
+Create a Variable to return the lastOfArray element in an array 
+
+Ex: lastOfArray([1,4,5]) => 5
+Ex: lastOfArray(["t","u","g","x"]) => "x"
+*/
+
+
+/*
+6
+Using console make this array to be like this one (push, unshift, shift, pop)
+
+var array = [0,5,7,9]
+=> [1,3,4,6,8,9,10]
+*/
+
+
+/*
+7
+Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
+
+var array2 = [5,9,-7,3.5]
+*/
+
+/*
+8.
+Write a JavaScript program to sort the items of an array.
+Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
+Sample Output : -4,-3,1,2,3,5,6,7,8
+*/
+
+9.
+Write a JavaScript function that returns rate as text
+less than 50 return ==> Fail
+equal or between 50 and 59 ===> E
+equal or between 60 and 69 ===> D
+equal or between 70 and 79 ===> C
+equal or between 80 and 89 ===> B
+equal or between 90 and 100 ===> A
+
+10.
+Write a JS code to print a pattern using for loop
+
+   1 
+   1 2 
+   1 2 3 
+   1 2 3 4 
+   1 2 3 4 5 
+   1 2 3 4 5 6 
+   1 2 3 4 5 6 7 
+   1 2 3 4 5 6 7 8 
+
+*/
+ 
