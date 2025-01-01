@@ -2,12 +2,24 @@
 // create variable Calculate the value of zakat for x ,
 // If you know the percentage of zakat = 2.5 %; 
 
+
 let x = 250;
 let zakatPer = 0.025;
 
 let zakat = x * zakatPer;
 
 console.log ("the zakat for " + x + " is " + zakat);
+
+// other way:
+let X1 = 250;
+if ( x > 4000 ) {
+    zakat = X1 * 0.025 ; 
+    console.log(zakat); 
+    
+}
+else  console.log("Zakat not Available");
+
+
 
 
 
@@ -104,7 +116,6 @@ console.log(arr5);
 
 
 // 7-Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
-
 // var array2 = [5,9,-7,3.5]
 
 let arr6 = [5, 9, -7, 3.5]

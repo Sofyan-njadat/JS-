@@ -1,0 +1,36 @@
+.greeting{
+    height: 50px;
+    width: 600px;
+    background-color: yellow;
+    text-align: center;
+
+}
+
+.p2{
+    font-size: xx-large;
+    padding-top: 5px;
+    background-color:yellow;
+    width: 100%;
+    height: 100%;
+    border: 3px rgba(0, 0, 0, 0.381) solid;
+
+}
+
+
+.task2{
+    margin-top: 50px;
+}
+
+
+ .boxs{
+
+    border: solid 5px black;
+    margin: 10px 0 90px 0 ;
+    height:250px;
+    width :550px;
+ }
+
+
+ .txt{
+    padding-left: 10px
+ }
