@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 1 Form</title>
+  </head>
+  <body>
+    <form id="myForm" onsubmit="handleSubmit(event)">
+      <label for="">Name: </label>
+      <input type="text" name="" id="name" />
+      <br />
+      <br />
+      <label for="">Age: </label>
+      <input type="number" name="" id="age" />
+      <br />
+      <br />
+      <label for="">Gender: </label>
+      <input type="text" name="" id="gender" />
+      <br />
+      <br />
+      <label for="">Birth Of Date: </label>
+      <input type="date" name="" id="date" />
+      <br />
+      <br />
+      <label for="">Upload Your Image: </label>
+      <input type="file" name="" id="img" />
+      <br />
+      <br />
+      <hr />
+      <br />
+
+      <label for="">Description</label>
+      <input type="text" name="" id="des" />
+      <br />
+      <br />
+
+      <label for="">Major & University: </label>
+      <input type="text" name="" id="university" />
+      <br />
+      <br />
+
+      <label for="">Programming Language: </label>
+      <input type="checkbox" name="" id="html" />
+      <label for="html">HTML</label>
+      <input type="checkbox" name="" id="css" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="" id="js" />
+      <label for="js">JavaScript</label>
+      <br />
+      <br />
+      <hr />
+      <br />
+      <label for="">Sibling Numbers: </label>
+      <input type="text" name="" id="sNumbers" />
+      <br />
+      <br />
+      <label for="">Description Of Siblings: </label>
+      <input type="text" name="" id="des.Siblings" />
+      <br />
+      <br />
+      <input type="submit" id="send" />
+      
+    </form>
+    <br>
+    <button onclick="saveToLocal()">Send To Local Storage</button>
+
+    <div id="output"></div>
+
+    <script src="jsTask4-A.js.js" ></script>
+  </body>
+</html>

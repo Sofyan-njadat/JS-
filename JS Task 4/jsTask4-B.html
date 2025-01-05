@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toggle Task</title>
+    <style>
+      :root {
+        margin: 0px;
+        padding: 0px;
+      }
+      nav {
+        background-color: rgb(138, 97, 97);
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+        padding: 10px;
+     
+      }
+
+      nav h1,
+      ul {
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+      }
+
+      ul li {
+        margin-left: 50px;
+        margin-top: 8px;
+      }
+
+      @media (max-width: 426px) {
+        ul {
+          display: none;
+          text-align: left;
+          margin-top: 75px;
+        }
+        ul li {
+          margin: 0px;
+        }
+
+        #menu {
+          background-color: red;
+        }
+
+        .toggle span {
+          width: 30px;
+          height: 3px;
+          background-color: #333;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+        }
+
+        .toggle span:first-child {
+          margin-top: 10px;
+        }
+
+        .toggle span:nth-child(2) {
+          margin-top: 20px;
+        }
+        .toggle span:last-child {
+          margin-top: 30px;
+        }
+        .show {
+          display: block;
+        }
+        .notShow {
+          display: none;
+        }
+
+        .options {
+          position: relative;
+        }
+        .options #menu {
+          position: absolute;
+          top: 2px;
+          right: -60px;
+          width: -79%;
+          padding: 10px 179px;
+        }
+        .options #menu li {
+          padding: 10px 0px;
+          text-align: center;
+          width: 72px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Logo</h1>
+        <div class="options">
+          <ul id="menu">
+            <li>Home</li>
+            <li>Articles</li>
+            <li>Services</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+          </ul>
+          <div class="toggle" onclick="showItems ()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script>
+      document.addEventListener("click", function () {
+           if (document.getElementsByClassName("toggle").className === "show") {
+             document.getElementsByClassName("toggle").className === "notShow";
+           } else document.getElementsByClassName("toggle").className === "show";
+         });
+         let messageElement = document.getElementById("menu");
+
+         function showItems() {
+           if (messageElement.className === "show") {
+             messageElement.className === "notShow";
+           } else messageElement.className === "show";
+         }
+
+      function showItems () {
+        let menu = document.getElementById("menu");
+        if (menu.classList.contains("show")) {
+          menu.classList.remove("show");
+        } else {
+          menu.classList.add("show");
+        }
+      }
+    </script>
+  </body>
+</html>
