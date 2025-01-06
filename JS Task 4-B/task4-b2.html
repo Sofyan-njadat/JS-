@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4-B2</title>
+    <link rel="stylesheet" href="task4-b.css">
+</head>
+
+
+
+<body>
+
+
+    
+    <div class="page1" ></div>
+    
+    <button id="scrollToTop" title="Go to top">&#8593;</button>
+
+
+
+
+
+
+    <script>
+        const scrollToTopButton = document.getElementById("scrollToTop");
+
+            window.onscroll = function () {
+                if (document.documentElement.scrollTop > 100) {
+                    scrollToTopButton.style.display = "block";
+                } else {
+                    scrollToTopButton.style.display = "none";
+                }
+            };
+
+            scrollToTopButton.onclick = function () {
+                window.scrollTo({ top: 0, behavior: "auto" });
+            };
+    </script>
+
+
+
+</body>
+
+
+
+</html>

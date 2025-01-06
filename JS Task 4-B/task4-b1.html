@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 B1</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+    <div>
+
+        <select name="" id="newflag" onchange="showflag()">
+            <option value="Jordan">Jordan</option>
+            <option value="palestine">Palestine</option>
+        </select>
+
+    </div>
+
+    <img id="flag" src="imgs/jordan_Flag_50007df27e1f7.jpg" alt="" style="width: 200px; height: 150px;">
+
+
+
+    <script>
+
+
+        function showflag() {
+
+            let addflag = document.getElementById("flag")
+            let flag = document.getElementById("newflag").value
+
+            if (flag === "Jordan") {
+                addflag.src = "./imgs/jordan_Flag_50007df27e1f7.jpg"
+            } 
+            else if (flag === "palestine") {
+                addflag.src = "./imgs/free-palestine_AC_SL1500_.jpg"
+            }
+
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
