@@ -1,0 +1,11 @@
+#cardsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.cards{
+    margin-top: 10px;
+    border: solid 2px ;
+    padding: 15px;
+}

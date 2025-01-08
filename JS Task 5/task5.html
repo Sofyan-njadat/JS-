@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5 JS</title>
+
+    <style>
+        span {
+
+            color: rgb(0, 188, 6);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form action="">
+
+        <label for="FName">First Name:</label>
+        <br>
+        <input type="text" id="FName" onkeyup="ValidFName()">
+        <span id="Error-FName"></span>
+        <br><br>
+        <label for="LName">Last Name:</label>
+        <br>
+        <input type="text" id="LName" onkeyup="ValidLName()">
+        <span id="Error-LName"></span>
+        <br><br>
+        <label for="Bdate">Birth date:</label>
+        <br>
+        <input type="text" id="Bdate" onkeyup="ValidBdate()" placeholder="yyyy-mm-dd">
+        <span id="Error-Bdate"></span>
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" id="email" onkeyup="Validemail()">
+        <span id="Error-email"></span>
+        <br><br>
+        <label for="Confirm">Email:</label>
+        <br>
+        <input type="text" id="Confirm" onkeyup="ValidConfirmEmail()">
+        <span id="Error-Confirm_email"></span>
+        <br><br>
+        <label for="Password">Password:</label>
+        <br>
+        <input type="text" id="Password" onkeyup="ValidPassword()">
+        <span id="Error-Password"></span>
+        <br><br>
+        <label for="C_Password">Confirm Password:</label>
+        <br>
+        <input type="text" id="C_Password" onkeyup="ValidConfirmPassword()">
+        <span id="Error-C_Password"></span>
+
+    </form>
+
+    <script src="./task5.js"></script>
+</body>
+
+</html>
